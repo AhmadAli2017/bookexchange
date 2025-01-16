@@ -90,30 +90,6 @@ npm start
 
 By default, the frontend will be accessible at `http://localhost:3000`.
 
-## API Endpoints
-
-### `POST /api/books/matchmaking`
-
-Fetches the list of exchange requests for matchmaking.
-
-**Headers**:
-- `Authorization: Bearer <token>`
-
-### `PUT /api/books/exchange-request/:id`
-
-Updates the status of a specific exchange request (`accept` or `reject`).
-
-**Headers**:
-- `Authorization: Bearer <token>`
-- `Content-Type: application/json`
-
-**Body**:
-```json
-{
-  "action": "accept"  // or "reject"
-}
-```
-
 ### Authentication
 
 The project uses JWT for authentication. Make sure to login using the appropriate API to get a token and include it in the `Authorization` header when making requests.
@@ -150,20 +126,6 @@ npm run test
 cd frontend
 npm run test
 ```
-
-## Contributing
-
-We welcome contributions to improve the project! To contribute:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-name`).
-3. Commit your changes (`git commit -am 'Add new feature'`).
-4. Push to your branch (`git push origin feature-name`).
-5. Create a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
