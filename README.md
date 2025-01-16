@@ -113,20 +113,6 @@ The project uses JWT for authentication. Make sure to login using the appropriat
 └── README.md
 ```
 
-## Running Tests
-
-To run tests, navigate to the backend or frontend directory and execute the following commands:
-
-```bash
-# For Backend Tests
-cd backend
-npm run test
-
-# For Frontend Tests (if applicable)
-cd frontend
-npm run test
-```
-
 ## Contact
 
 For any questions or issues, feel free to open an issue or contact the project maintainers.
