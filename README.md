@@ -97,13 +97,6 @@ The project uses JWT for authentication. Make sure to login using the appropriat
 ## Project Structure
 
 ```plaintext
-├── backend/
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── .env
-│   ├── server.js
-│   └── package.json
 ├── frontend/
 │   ├── components/
 │   ├── pages/
